@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1550922911 source:d:\mon travail sur c\listes chainees\remplissage & affichage liste_ch\maillon1.c
+	<stdlib.h>
+	"maillon1.h"
+
+1550922834 d:\mon travail sur c\listes chainees\remplissage & affichage liste_ch\maillon1.h
+
+1550922911 source:d:\mon travail sur c\listes chainees\remplissage & affichage liste_ch\main.c
+	<stdio.h>
+	<stdlib.h>
+	"maillon1.h"
+

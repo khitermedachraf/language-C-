@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1550534574 source:d:\mon travail sur c\programme simple\paire_impaire\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1551996662 source:d:\mon travail sur c\recursivite\inv_llc\inv_llc.c
+	<stdio.h>
+	<stdlib.h>
+	"llc.h"
+
+1551996662 d:\mon travail sur c\recursivite\inv_llc\llc.h
+	<stdio.h>
+	<stdlib.h>
+
+1551996662 source:d:\mon travail sur c\recursivite\inv_llc\llc.c
+	"llc.h"
+

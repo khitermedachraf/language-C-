@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1551019975 source:d:\mon travail sur c\listes chainees\acces par valeure\acces par valeure\maillon2.c
+	<stdlib.h>
+	"maillon2.h"
+
+1551020010 d:\mon travail sur c\listes chainees\acces par valeure\acces par valeure\maillon2.h
+
+1551019976 source:d:\mon travail sur c\listes chainees\acces par valeure\acces par valeure\main.c
+	<stdio.h>
+	<stdlib.h>
+	"maillon2.h"
+

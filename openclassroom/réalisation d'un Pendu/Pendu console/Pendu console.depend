@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1555882564 source:d:\mon travail sur c\openclassroom\réalisation d'un pendu\pendu console\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<ctype.h>
+	"deco.h"
+
+1555882292 source:d:\mon travail sur c\openclassroom\réalisation d'un pendu\pendu console\deco.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<ctype.h>
+	"deco.h"
+
+1555882261 d:\mon travail sur c\openclassroom\réalisation d'un pendu\pendu console\deco.h
+

@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1550218068 source:d:\mon travail sur c\programme simple\prj_prime\maillon.c
+	<stdlib.h>
+	"maillon.h"
+
+1550842805 d:\mon travail sur c\programme simple\prj_prime\maillon.h
+
+1514140574 source:d:\mon travail sur c\programme simple\prj_prime\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1550218408 source:d:\mon travail sur c\programme simple\prj_prime\nbprem.c
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<sys/time.h>
+	"maillon.h"
+

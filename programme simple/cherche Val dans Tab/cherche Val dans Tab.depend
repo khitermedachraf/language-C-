@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1550535948 source:d:\mon travail sur c\programme simple\cherche val dans tab\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

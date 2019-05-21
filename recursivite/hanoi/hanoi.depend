@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1551996662 source:d:\mon travail sur c\recursivite\hanoi\hanoi.c
+	<stdio.h>
+
+1551996662 source:d:\mon travail sur c\recursivite\hanoi\llc.c
+	"llc.h"
+
+1551996662 d:\mon travail sur c\recursivite\hanoi\llc.h
+	<stdio.h>
+	<stdlib.h>
+

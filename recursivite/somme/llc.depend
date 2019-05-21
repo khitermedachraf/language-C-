@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1551996662 source:d:\mon travail sur c\listes chainees\llc\llc.c
+	"llc.h"
+
+1551996662 d:\mon travail sur c\listes chainees\llc\llc.h
+	<stdio.h>
+	<stdlib.h>
+
+1551996662 source:d:\mon travail sur c\listes chainees\llc\somme.c
+	<stdio.h>
+
+1551996662 source:d:\mon travail sur c\recursivite\somme\llc.c
+	"llc.h"
+
+1551996662 d:\mon travail sur c\recursivite\somme\llc.h
+	<stdio.h>
+	<stdlib.h>
+
+1551996662 source:d:\mon travail sur c\recursivite\somme\somme.c
+	<stdio.h>
+

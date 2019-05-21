@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1555516405 source:d:\mon travail sur c\tp1 s2\tp1 s2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utilisateur.h"
+
+1555516712 source:d:\mon travail sur c\tp1 s2\tp1 s2\utilisateur.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"utilisateur.h"
+
+1555511632 d:\mon travail sur c\tp1 s2\tp1 s2\utilisateur.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

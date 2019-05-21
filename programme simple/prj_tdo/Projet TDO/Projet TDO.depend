@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1550220736 source:d:\mon travail sur c\programme simple\prj_tdo\app.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"tdo.h"
+
+1550220172 d:\mon travail sur c\programme simple\prj_tdo\tdo.h
+
+1550220676 source:d:\mon travail sur c\programme simple\prj_tdo\tdo.c
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	"tdo.h"
+

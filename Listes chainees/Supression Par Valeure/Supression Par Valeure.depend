@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1551625059 source:d:\mon travail sur c\listes chainees\supression par valeure\maillon3.c
+	<stdlib.h>
+	"maillon3.h"
+
+1551625107 d:\mon travail sur c\listes chainees\supression par valeure\maillon3.h
+
+1551625027 source:d:\mon travail sur c\listes chainees\supression par valeure\main.c
+	<stdio.h>
+	<stdlib.h>
+	"maillon3.h"
+

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1551996662 source:d:\mon travail sur c\recursivite\somme2\llc.c
+	"llc.h"
+
+1551996662 d:\mon travail sur c\recursivite\somme2\llc.h
+	<stdio.h>
+	<stdlib.h>
+
+1551996662 source:d:\mon travail sur c\recursivite\somme2\somme2.c
+	<stdio.h>
+
