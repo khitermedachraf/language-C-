@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1573979191 source:c:\users\micro\desktop\programme\fct trie\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
