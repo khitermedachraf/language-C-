@@ -1,0 +1,104 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct elt{
+    int n;
+    struct elt *svt;} liste;
+
+
+liste * creerfifo()
+{
+    int x;
+    liste *tete,*p,*q;
+    tete=NULL;
+    puts("donner un nombre");
+    scanf("%d",&x);
+    while(x!=0)
+    {
+        p=(liste*)malloc(sizeof(liste));
+        p->n=x;
+        if(tete==NULL)
+        {
+            tete=p;
+            q=p;
+
+        }
+        else
+        {
+            q->svt=p;
+            q=p;
+        }
+        puts("donner un autre nombre");
+        scanf("%d",&x);
+    }
+    p->svt=NULL;
+return tete;
+}
+
+liste *creerlifo()
+{
+    liste *tete,*p;
+    tete=NULL;
+    int x;
+    puts("donner une valeur");
+    scanf("%d", &x);
+    while(x!=0)
+    {
+        p=(liste*)malloc(sizeof(liste));
+        p->n=x;
+        p->svt=tete;
+        tete=p;
+        puts("donner une autre valeur");
+        scanf("%d", &x);
+    }
+    return tete;
+}
+
+void afficheliste(liste *tete)
+{
+    liste *p;
+
+    p=tete;
+    while(p!=NULL)
+    {
+        printf("%d a l'adresse %p\n", p->n,p);
+        p=p->svt;
+    }
+}
+// question en plus pour tester l'egalité de deux listes
+int identiques(liste *t1,liste *t2)
+{
+    liste *p,*q;
+    p=t1;q=t2;
+    while(p!=NULL && q!=NULL && p->n==q->n)
+    {
+        p=p->svt;
+        q=q->svt;
+    }
+    if(p!=NULL||q!=NULL)
+        return 0;
+    return 1;
+
+}
+ main()
+{
+  liste *p,*q;
+puts("creation de la premiere liste en fifo");
+  p=creerfifo();
+  puts("creation de la deuxieme liste en lifo");
+  q=creerlifo();
+  puts("affichage de la premiere liste");
+  puts("--------------------------");
+  afficheliste(p);
+  puts("affichage de la deuxieme liste");
+   puts("--------------------------");
+
+  afficheliste(q);
+
+  int comp=identiques(p,q);
+  if(comp==1)
+    puts("les deux listes sont dentiques");
+  else
+    puts("les deux listes ne sont pas identiques");
+
+}
