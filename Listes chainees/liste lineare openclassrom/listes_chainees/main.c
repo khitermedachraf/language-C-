@@ -16,7 +16,7 @@ int main()
     ///********************
 
     printf("\n\n \t Maintenant c est *** La PILE ***\n") ;
-        Liste *maPile = initialiserPile();
+       Pile *maPile = initialiserPile();
 
     empiler(maPile, 4);
     empiler(maPile, 8);
@@ -34,7 +34,22 @@ int main()
     printf("\nEtat de la pile :\n");
     afficherPile(maPile);
 
+    printf("\n\n \t Maintenant c est *** La FILE ***\n") ;
+    File *maFile = initialiserFile() ;
+    enfiler(maFile,4);
+    enfiler(maFile,8);
+    enfiler(maFile,15);
+    enfiler(maFile,16);
+    enfiler(maFile,23);
+    enfiler(maFile,42);
+    printf("\nEtat de la file :\n\n\n");
+    afficherFile(maFile) ;
 
+    printf("\n\n Je defile %d\n", defiler(maFile));
+    printf("Je defile %d\n", defiler(maFile));
+    printf("\nEtat de la file :\n\n\n");
+    afficherFile(maFile) ;
+    printf("\n\n\t\t  FUCK YOU ************") ;
     return 0;
 }
 
