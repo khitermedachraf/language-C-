@@ -1,30 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-typedef struct Element Element;
-struct Element
-{
-    int nombre;
-    Element *suivant;
-};
-
-////////////////////////////////////////////////////
-
-typedef struct Liste Liste;
-struct Liste
-{
-    Element *premier;
-};
-
-///**************************************************
-
-int main()
-{
-    printf("Hello world!\n");
-    return 0;
-}
-
-///**************************************************
+#include "liste_chainee.h"
 
 Liste *initialisation()
 {
@@ -43,7 +19,7 @@ Liste *initialisation()
     return liste;
 }
 
-///////////////////////////////////////////////////////
+
 void insertion(Liste *liste, int nvNombre)
 {
     /* Création du nouvel élément */
@@ -59,7 +35,7 @@ void insertion(Liste *liste, int nvNombre)
     liste->premier = nouveau;
 }
 
-///////////////////////////////////////////////////////
+
 void suppression(Liste *liste)
 {
     if (liste == NULL)
@@ -74,7 +50,7 @@ void suppression(Liste *liste)
         free(aSupprimer);
     }
 }
-////////////////////////////////////////////////////////
+
 void afficherListe(Liste *liste)
 {
     if (liste == NULL)
@@ -91,4 +67,12 @@ void afficherListe(Liste *liste)
     }
     printf("NULL\n");
 }
-////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
