@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1584661513 source:d:\mon-travail-personnel\mon travail sur c\language-c-\anniversaire_laetitia\anniversaire_laetitia\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
